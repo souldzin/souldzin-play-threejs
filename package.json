@@ -1,0 +1,19 @@
+{
+  "name": "play-threejs",
+  "version": "1.0.0",
+  "description": "playground for threejs stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souldzin/souldzin-play-threejs.git"
+  },
+  "author": "souldzin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souldzin/souldzin-play-threejs/issues"
+  },
+  "homepage": "https://github.com/souldzin/souldzin-play-threejs#readme"
+}
