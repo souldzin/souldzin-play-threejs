@@ -4,7 +4,8 @@
   "description": "playground for threejs stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node scripts/preinstall"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/souldzin/souldzin-play-threejs/issues"
   },
-  "homepage": "https://github.com/souldzin/souldzin-play-threejs#readme"
+  "homepage": "https://github.com/souldzin/souldzin-play-threejs#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.6",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
+    "yargs": "^4.7.1"
+  }
 }
