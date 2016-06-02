@@ -16,6 +16,9 @@
     "url": "https://github.com/souldzin/souldzin-play-threejs/issues"
   },
   "homepage": "https://github.com/souldzin/souldzin-play-threejs#readme",
+  "dependencies": {
+    "three": "^0.77.1"
+  },
   "devDependencies": {
     "browserify": "^13.0.1",
     "gulp": "^3.9.1",
